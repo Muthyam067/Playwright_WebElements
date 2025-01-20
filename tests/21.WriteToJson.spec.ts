@@ -17,7 +17,7 @@ test.describe('Write into Json file', () => {
             roles: ["admin", "editor"]
           },
       }
-    test.only('Write data into json file', async({page})=>{
+    test('Write data into json file', async({page})=>{
          fs.writeFileSync('Data/Write.json',JSON.stringify(data))//Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 
 
