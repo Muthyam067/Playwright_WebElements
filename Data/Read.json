@@ -1,0 +1,43 @@
+{
+    "user": {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "roles": ["admin", "editor"],
+      "isActive": true,
+      "profile": {
+        "age": 29,
+        "gender": "male",
+        "location": {
+          "city": "New York",
+          "country": "USA"
+        }
+      }
+    },
+    "settings": {
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false
+      },
+      "privacy": {
+        "shareLocation": false,
+        "shareActivity": true
+      }
+    },
+    "tasks": [
+      {
+        "taskId": 101,
+        "title": "Complete JSON tutorial",
+        "dueDate": "2025-01-25",
+        "completed": false
+      },
+      {
+        "taskId": 102,
+        "title": "Write JSON schema",
+        "dueDate": "2025-02-01",
+        "completed": true
+      }
+    ]
+  }
+  
